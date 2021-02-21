@@ -1,0 +1,27 @@
+div.navbar {
+    margin-left: 10px;
+    color: black;
+    list-style-type: none;
+}
+div.navbar > a {
+    font-size: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+div.center{
+    width: 90%;
+    margin: auto;
+}
+div.profilePic {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-image: url("../profilePic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+div.profile > p {
+    font-size: 20px;
+}

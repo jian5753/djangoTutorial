@@ -1,10 +1,15 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
      <head>
         <title>test title </title>
+        <link rel="stylesheet" href="{% static './css/style.css' %}">
+        
      </head>
+
      <body>
-        {% block content %}
-        {% endblock %}
+         {% include 'navbar.html' %}
+         {% block content %}
+         {% endblock %}
      </body>
 </html>
